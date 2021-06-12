@@ -87,12 +87,20 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 
         <?php 
             if(isset($_POST['enviar'])){
+                
                 $nome = $_POST['nome'];
                 $sexo= $_POST['sexo'];
                 $telefone= $_POST['telefone'];
                 $palavra_passe= $_POST['palavra_passe'];
                 $email= $_POST['email'];
-                $telefone= $_POST['telefone'];
+                $estado= "on";
+
+                $usuario->setNome($nome);
+                $usuario->setSexo($sexo);
+                $usuario->setTelefone($telefone);
+                $usuario->setPalavra_passe($palavra_passe);
+                $usuario->setEmail($email);
+                $usuario->setEstado($estado);
 
                 
             }
