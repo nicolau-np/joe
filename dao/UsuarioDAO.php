@@ -54,6 +54,21 @@ class UsuarioDao extends Conexao{
     }
 
     public function logar(Usuario $usuario){
-        
+        $this->resposta = null;
+        $this->consulta = "select *from usuario where email = :email "
+                . "and senha = :senha";
+        try {
+            $this->comando = $this->ligar()->prepare($this->consulta);
+            $this->comando->bindValue(":email", $usuario->getEmail(), PDO::PARAM_STR);
+            $this->comando->bindValue(":palavra_passe", $usuario->getPalavra_passe(), PDO::PARAM_STR);
+            $this->comando->execute();
+            if ($this->comando):
+                $this->resposta = $this->comando;
+            endif;
+            $this->desligar();
+        } catch (PDOException $ex) {
+            echo '' . $ex->getMessage();
+        }
+        return $this->resposta;
     }
 }
