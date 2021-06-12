@@ -2,18 +2,14 @@
 ob_start();
 session_start();
 
-if ((isset($_SESSION['nome'])) && (isset($_SESSION['telefone']))){
-    echo '<script>'
-    . 'window.location.href="index.php";'
-    . '</script>';
-}
-
 include_once('./controlo/Conexao.php');
 include_once('./modelo/Usuario.php');
 include_once('./dao/UsuarioDAO.php');
 
 $usuario = new Usuario();
 $usuarioDAO = new UsuarioDAO();
+
+
 ?>
 <!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -110,8 +106,9 @@ http://www.templatemo.com/preview/templatemo_358_carousel
             if ($usr->rowCount() <= 0) {
                 echo "<h4 style='color:red;'>Erro no E-mail ou Palavra-Passe</h4>";
             }else{
-                $_SESSION['nome'] = $usr->nome;
-                $_SESSION['telefone'] = $usr->telefone;
+                $_SESSION['nome'] = $view->nome;
+                $_SESSION['telefone'] = $view->telefone;
+                
                 header('location:index.php');
             }
         }
