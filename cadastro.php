@@ -104,38 +104,10 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <legend>Endereço</legend>
                 <p>Telefone:<input type="number" name="telefone" id="cRua" placeholder="Telefone" />
                 </p>
-                <p> Número:<input type=" number " name="tNum" id="cNum" min="0" max="9999"
-                        placeholder="Numero do telefone" /> </p>
-                <p><label f>Provincia:
-                        <select name="tEst" id="cEst">
-                            <option>Luanda</option>
-                            <optgroup label=" Regiao sul">
-                                <option selected>Namibe </option>
-                                <option>Huila</option>
-                                <option>Benguela</option>
-                            </optgroup>
-                        </select></p>
-                <p>Cidade:<input type="text" name="tCid" id="cCid" size="13" maxlength="80" placeholder="Bairro"
-                        list="cidades" />
-                    <datalist id="cidades">
-                        <option value="Forte Santa Rita"></option>
-                        <option value="5 de Abril"></option>
-                        <option value="Mabumi"></option>
-                        <option value="Sai di Mingas"></option>
-                </p>
+
             </fieldset>
 
-            <fieldset id="mensagem">
-                <legend>Mensagem do Usuário</legend>
-                <p>Grau de Urgência:
-                    Min<input type="range" name="tUrg" id="tUrg" min="0" max="10" step="2" />Max</p>
-                <p>Mensagem:
-                    <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixa aqui a sua mensagem">
-</textarea>
-
-                </p>
-            </fieldset>
-            <input type="submit" name="enviar">
+            <input type="submit" value="Enviar" name="enviar">
 
 
 
