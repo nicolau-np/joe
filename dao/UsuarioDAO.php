@@ -56,7 +56,7 @@ class UsuarioDao extends Conexao{
     public function logar(Usuario $usuario){
         $this->resposta = null;
         $this->consulta = "select *from usuario where email = :email "
-                . "and senha = :senha";
+                . "and palavra_passe = :palavra_passe";
         try {
             $this->comando = $this->ligar()->prepare($this->consulta);
             $this->comando->bindValue(":email", $usuario->getEmail(), PDO::PARAM_STR);
