@@ -79,7 +79,10 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                     </ul>
                 </li>
                 <li><a href="Estrutura.php">Estrutura</a></li>
+                <?php  if(!isset($_SESSION['nome'])){
+                ?>
                 <li><a href="cadastro.php" class="selected">Cadastro</a></li>
+                <?php } ?>
             </ul>
             <br style="clear: left" />
         </div> <!-- end of templatemo_menu -->

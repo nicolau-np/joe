@@ -63,7 +63,10 @@ session_start();
                     </ul>
                 </li>
                 <li><a href="Estrutura.php" class="selected">Estrutura</a></li>
+                <?php  if(!isset($_SESSION['nome'])){
+                ?>
                 <li><a href="cadastro.php">Cadastro</a></li>
+                <?php } ?>
             </ul>
             <br style="clear: left" />
         </div> <!-- end of templatemo_menu -->
