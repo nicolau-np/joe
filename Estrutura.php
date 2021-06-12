@@ -74,11 +74,11 @@
             <li>
                 <span>Parte Frontal da Escola Julia Lopes
                 </span>
-                <img src="images/Parte Frontal.jpg" alt="">
+                <img src="images/Parte Frontal.JPG" alt="">
             </li>
-            <li><img src="images/Parte Lateral.jpg" alt=""></li>
-            <li><img src="images/Parte Traseira.jpg" alt=""></li>
-            <li><img src="images/Parte Lateral.jpg" alt=""></li>
+            <li><img src="images/Parte Lateral.JPG" alt=""></li>
+            <li><img src="images/Parte Traseira.JPG" alt=""></li>
+            <li><img src="images/Parte Lateral.JPG" alt=""></li>
         </ul>
     </div>
     <div>
