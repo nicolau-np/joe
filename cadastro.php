@@ -104,7 +104,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 
             $usr = $usuarioDAO->store($usuario);
             if ($usr >= 1) {
-                echo "<h3>Feito com sucesso</h3>";
+                echo "<h4>Feito com sucesso</h4>";
             }
         }
         ?>
@@ -120,8 +120,8 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <fieldset id="sexo">
                     <legend>Sexo:</legend>
                     <select name="sexo" required>
-                        <option>Masculino</option>
-                        <option>Femenino</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
                     </select>
 
                 </fieldset>
