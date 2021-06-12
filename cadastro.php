@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html
+﻿<?php
+include_once('./controlo/Conexao.php');
+include_once('./modelo/Usuario.php');
+include_once('./dao/UsuarioDAO.php');
+?>
+<!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -90,7 +95,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
             }
         ?>
 
-        <form method="POST" id="fcadastro">
+        <form method="POST" id="fcadastro" action="cadastro.php">
             <fieldset id="usuario">
                 <legend>Identificação do Usuário</legend>
                 <p><label for="cNome">Nome:<input type="text" name="nome" id="cNome" size="20" maxlength="30"
