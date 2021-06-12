@@ -13,7 +13,7 @@ class Conexao {
     private $tipo = "mysql";
     private $servidor = "localhost";
     private $porta = "3306";
-    private $usuario = "jose";
+    private $usuario = "root";
     private $senha = "Np@2015b";
     private $base_dados="joe";
 
