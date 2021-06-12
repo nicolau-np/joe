@@ -39,6 +39,32 @@ function getEstado(){
     return $this->estado;
 }
 
+function setId($id){
+    $this->id = $id;
+}
 
+function setNome($nome){
+    $this->nome = $nome;
+}
+
+function setSexo($sexo){
+    $this->sexo = $sexo;
+}
+
+function setEmail($email){
+    $this->email = $email;
+}
+
+function setPalavra_passe($palavra_passe){
+    $this->palavra_passe = $palavra_passe;
+}
+
+function setTelefone($telefone){
+    $this->telefone = $telefone;
+}
+
+function setEstado($estado){
+    $this->estado = $estado;
+}
 
 }
