@@ -62,7 +62,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <li><a href="#">Fotos</a>
                     <ul>
                         <li><span class="top"></span><span class="bottom"></span></li>
-                        <li><a href="Inauguração.php">Inauguração</a></li>
+                        <li><a href="Inauguracao.php">Inauguração</a></li>
                         <li><a href="Actividades.php">Actividades</a></li>
 
                     </ul>
