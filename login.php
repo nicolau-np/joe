@@ -1,4 +1,13 @@
 <?php
+ob_start();
+session_start();
+
+if ((isset($_SESSION['nome'])) && (isset($_SESSION['telefone']))){
+    echo '<script>'
+    . 'window.location.href="index.php";'
+    . '</script>';
+}
+
 include_once('./controlo/Conexao.php');
 include_once('./modelo/Usuario.php');
 include_once('./dao/UsuarioDAO.php');
@@ -86,7 +95,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
     <div id="templatemo_main">
 
         <?php
-        if (isset($_POST['enviar'])) {
+        if (isset($_POST['entrar'])) {
 
 
             $palavra_passe = $_POST['palavra_passe'];
@@ -99,9 +108,11 @@ http://www.templatemo.com/preview/templatemo_358_carousel
             $usr = $usuarioDAO->logar($usuario);
             $view = $usr->fetch(PDO::FETCH_OBJ);
             if ($usr->rowCount() <= 0) {
-                echo "<h4>Erro no E-mail ou Palavra-Passe</h4>";
+                echo "<h4 style='color:red;'>Erro no E-mail ou Palavra-Passe</h4>";
             }else{
-                echo "feito";
+                $_SESSION['nome'] = $usr->nome;
+                $_SESSION['telefone'] = $usr->telefone;
+                header('location:index.php');
             }
         }
         ?>
@@ -142,7 +153,18 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <li>silcasilva7@yahoo.com.br</li>
                 <li>telefone:+244 924-410-501</li>
                 <li>+244 923-699-207</li>
+                <?php 
+                if(isset($_SESSION['nome'])){
+                    ?>
+                <li><a href="logout.php" class="selected">Logout</a></li>
+                <?php 
+                }else{
+                ?>
                 <li><a href="login.php" class="selected">Login</a></li>
+                <?php
+                }
+                ?>
+
                 <div class="bottom_box">
                     <ul class="twitter_post">
                         <li></a></li>
