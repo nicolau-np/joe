@@ -52,4 +52,8 @@ class UsuarioDao extends Conexao{
     public function destroy($id){
         
     }
+
+    public function logar(Usuario $usuario){
+        
+    }
 }
