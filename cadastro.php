@@ -77,9 +77,20 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 
     <div id="templatemo_main">
 
+        <?php 
+            if(isset($_POST['enviar'])){
+                $nome = $_POST['nome'];
+                $sexo= $_POST['sexo'];
+                $telefone= $_POST['telefone'];
+                $palavra_passe= $_POST['palavra_passe'];
+                $email= $_POST['email'];
+                $telefone= $_POST['telefone'];
 
+                
+            }
+        ?>
 
-        <form method="pst" id="fcadastro" oninput="calc_total();">
+        <form method="POST" id="fcadastro">
             <fieldset id="usuario">
                 <legend>Identificação do Usuário</legend>
                 <p><label for="cNome">Nome:<input type="text" name="nome" id="cNome" size="20" maxlength="30"
