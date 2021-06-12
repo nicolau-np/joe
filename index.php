@@ -103,21 +103,21 @@ http://www.templatemo.com/preview/templatemo_358_carousel
         <div id="carousel1" style="width:960px; height:280px;background:none;overflow:scroll; margin-top: 20px">
             <!-- All images with class of "cloudcarousel" will be turned into carousel items -->
             <!-- You can place links around these images -->
-            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/1.JPG" alt="CSS Templates 1"
+            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/01.jpg" alt="CSS Templates 1"
                     title="Website Templates 1" /></a>
-            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/2.jpg" alt="CSS Templates 2"
+            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/02.jpg" alt="CSS Templates 2"
                     title="Website Templates 2" /></a>
-            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/3.jpg" alt="CSS Templates 3"
+            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/03.jpg" alt="CSS Templates 3"
                     title="Website Templates 3" /></a>
-            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/4.jpg" alt="CSS Templates 4"
+            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/04.jpg" alt="CSS Templates 4"
                     title="Website Templates 4" /></a>
-            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/5.jpg" alt="Flash Templates 1"
+            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/05.jpg" alt="Flash Templates 1"
                     title="Flash Templates 1" /></a>
-            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/6.jpg" alt="Flash Templates 2"
+            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/06.jpg" alt="Flash Templates 2"
                     title="Flash Templates 2" /></a>
-            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/7.jpg" alt="Flash Templates 3"
+            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/07.jpg" alt="Flash Templates 3"
                     title="Flash Templates 3" /></a>
-            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/8.jpg" alt="Flash Templates 4"
+            <a href="#" rel="lightbox"><img class="cloudcarousel" src="images/slider/08.jpg" alt="Flash Templates 4"
                     title="Flash Templates 4" /></a>
         </div>
 
@@ -150,7 +150,8 @@ http://www.templatemo.com/preview/templatemo_358_carousel
         Formar professores com sólidos conhecimentos científicos e técnicos e uma profunda consciência nacionalista, de
         modo que assumam com responsabilidade a tarefa de educar as novas gerações;
         Desenvolver acções de permanente actualização e aperfeiçoamento dos professores e agentes de educação nas
-        modalidades de formação presencial, contínua e a distância.</P>
+        modalidades de formação presencial, contínua e a distância.
+        </P>
         <h5>Missão</h5>
         Formar professores profissionalmente preparados para a docência no Ensino Primário e no Pré-Escolar;
 
