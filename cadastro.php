@@ -12,7 +12,6 @@
     <!-- 
 Carousel Template 
 http://www.templatemo.com/preview/templatemo_358_carousel 
-
 -->
     <script type="text/javascript" src="js/jquery-1-4-2.min.js"></script>
     <!--script type="text/javascript" src="/jqueryui/js/jquery-ui-1.7.2.custom.min.js"></script-->
@@ -21,7 +20,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
     <script type="text/JavaScript" src="js/jquery.mousewheel.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
-
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/ddsmoothmenu.js">
     /***********************************************
@@ -76,41 +75,98 @@ http://www.templatemo.com/preview/templatemo_358_carousel
         <div class="cleaner"></div>
     </div> <!-- END of templatemo_header_wrapper -->
 
+    <div id="templatemo_main">
 
 
 
+        <form method="pst" id="fcadastro" oninput="calc_total();">
+            <fieldset id="usuario">
+                <legend>Identificação do Usuário</legend>
+                <p><label for="cNome">Nome:<input type="text" name="nome" id="cNome" size="20" maxlength="30"
+                            placeholder="Nome completo" /></p></label>
+                <p> <label For="cSenha">Palavra-Passe:<input type="password" name="palavra_passe" id="cSenha"
+                            maxlength="8" placeholder="Palavra-Passe" /> </p></label>
+                <p>E-mail:<input type="email" name="email" id="cMail" /> </p>
+                <fieldset id="sexo">
+                    <legend>Sexo:</legend>
+                    <select name="sexo">
+                        <option>Masculino</option>
+                        <option>Femenino</option>
+                    </select>
 
+                </fieldset>
 
+                <fieldset id="endereco">
+                    <legend>Endereço</legend>
+                    <p>Telefone:<input type="number" name="telefone" id="cRua" placeholder="Telefone" />
+                    </p>
 
+                </fieldset>
 
-    <form method="pst" id="fcadastro" oninput="calc_total();">
-        <fieldset id="usuario">
-            <legend>Identificação do Usuário</legend>
-            <p><label for="cNome">Nome:<input type="text" name="nome" id="cNome" size="20" maxlength="30"
-                        placeholder="Nome completo" /></p></label>
-            <p> <label For="cSenha">Palavra-Passe:<input type="password" name="palavra_passe" id="cSenha" maxlength="8"
-                        placeholder="Palavra-Passe" /> </p></label>
-            <p>E-mail:<input type="email" name="email" id="cMail" /> </p>
-            <fieldset id="sexo">
-                <legend>Sexo:</legend>
-                <select name="sexo">
-                    <option>Masculino</option>
-                    <option>Femenino</option>
-                </select>
+                <input type="submit" name="enviar">
 
-            </fieldset>
+        </form>
+    </div>
+    <!-- END of templatemo_main -->
 
-            <fieldset id="endereco">
-                <legend>Endereço</legend>
-                <p>Telefone:<input type="number" name="telefone" id="cRua" placeholder="Telefone" />
-                </p>
+    <div id="templatemo_bottom_wrapper">
+        <div id="templatemo_bottom">
+            <div class="col one_third">
+                <h4><span></span>Menu</h4>
+                <div class="bottom_box">
+                    <ul class="footer_list">
+                        <li><a href="Estrutura.php">Estrutura</a></li>
+                        <li><a href="#">Cadastoro</a></li>
+                        <ul>
+                            <li>Cursos</li>
+                            <li><a href="Pre-escolar.php">Pré-escolar</a></li>
+                            <li><a href="Magisterio Primario.php">Magisterio Primario</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="col one_third">
+                <h4><span></span> Contactos</h4>
+                <li>email:luciacalulu@yahoo.com.br</li>
+                <li>silcasilva7@yahoo.com.br</li>
+                <li>telefone:+244 924-410-501</li>
+                <li>+244 923-699-207</li>
+                <div class="bottom_box">
+                    <ul class="twitter_post">
+                        <li></a></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col one_third no_margin_right">
+                <center>
+                    <h4><span></span>Sobre a Pagina</h4>
+                </center>
+                <div class="bottom_box">
+                    <p><em>esta pagina web foi criada com objetivo de promover a publicitação das
+                            informaçães da escola
+                            Julia lopes a nivel da midia
+                            de modo a facilitar e minimizar os gastos, esforços tornando mais facíl o
+                            processo de
+                            aderencia a escola. </em></p><br />
+                    <div class="footer_social_button">
+                        <a href="#"><img src="images/facebook.png" title="facebook" alt="facebook" /></a>
+                        <a href="#"><img src="images/flickr.png" title="flickr" alt="flickr" /></a>
+                        <a href="#"><img src="images/twitter.png" title="twitter" alt="twitter" /></a>
+                        <a href="#"><img src="images/youtube.png" title="youtube" alt="youtube" /></a>
+                        <a href="#"><img src="images/feed.png" title="rss" alt="rss" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            </fieldset>
+        <div class="cleaner"></div>
+    </div> <!-- END of tempatemo_bottom -->
+    </div> <!-- END of tempatemo_bottom_wrapper -->
 
-            <input type="submit" value="Enviar" name="enviar">
-
-
-
-</body>
-
-</htmL>
+    <div id="templatemo_footer_wrapper">
+        <div id="templatemo_footer" <center>
+            <h3>Ecola Magisterio Primario Júlia Lopes</h3>
+            </center>
+        </div> <!-- END of templatemo_footer_wrapper -->
+    </div> <!-- END of templatemo_footer -->
