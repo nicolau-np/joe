@@ -69,7 +69,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                     </ul>
                 </li>
                 <li><a href="Estrutura.php">Estrutura</a></li>
-                <li><a href="contact.php" class="selected">Cadastro</a></li>
+                <li><a href="cadastro.php" class="selected">Cadastro</a></li>
             </ul>
             <br style="clear: left" />
         </div> <!-- end of templatemo_menu -->
@@ -86,54 +86,56 @@ http://www.templatemo.com/preview/templatemo_358_carousel
     <form method="pst" id="fcadastro" oninput="calc_total();">
         <fieldset id="usuario">
             <legend>Identificação do Usuário</legend>
-            <p><label for="cNome">Nome:<input type="text" name="tNome" id="cNome" size="20" maxlength="30"
+            <p><label for="cNome">Nome:<input type="text" name="nome" id="cNome" size="20" maxlength="30"
                         placeholder="Nome completo" /></p></label>
-            <p> <label For="cSenha">Senha:<input type="password" name="tSenha" id="cSenha" size="8" maxlength="8"
-                        placeholder="8 digito" /> </p></label>
-            <p>E-mail:<input type="email" name="tMail" id="cMail" size="20" maxlength="40" /> </p>
+            <p> <label For="cSenha">Palavra-Passe:<input type="password" name="palavra_passe" id="cSenha" maxlength="8"
+                        placeholder="Palavra-Passe" /> </p></label>
+            <p>E-mail:<input type="email" name="email" id="cMail" /> </p>
             <fieldset id="sexo">
                 <legend>Sexo:</legend>
-                <input type="radio" name="tsexo" id="cMasc" /><label for="cMasc">Masculino</label></br>
-                <input type="radio" name="tsexo" id="cFem" /><label for="cFem">Feminino</label>
+                <select name="sexo">
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                </select>
+
             </fieldset>
-            <p> Data de Nascimento:<input type="date" name="tNasc" id="cNasc" /> </p>
-        </fieldset>
 
-        <fieldset id="endereco">
-            <legend>Endereço do Usuário</legend>
-            <p>Logradouro:<input type="email" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua" /> </p>
-            <p> Número:<input type=" number " name="tNum" id="cNum" min="0" max="9999"
-                    placeholder="Numero do telefone" /> </p>
-            <p><label f>Provincia:
-                    <select name="tEst" id="cEst">
-                        <option>Luanda</option>
-                        <optgroup label=" Regiao sul">
-                            <option selected>Namibe </option>
-                            <option>Huila</option>
-                            <option>Benguela</option>
-                        </optgroup>
-                    </select></p>
-            <p>Cidade:<input type="text" name="tCid" id="cCid" size="13" maxlength="80" placeholder="Bairro"
-                    list="cidades" />
-                <datalist id="cidades">
-                    <option value="Forte Santa Rita"></option>
-                    <option value="5 de Abril"></option>
-                    <option value="Mabumi"></option>
-                    <option value="Sai di Mingas"></option>
-            </p>
-        </fieldset>
+            <fieldset id="endereco">
+                <legend>Endereço</legend>
+                <p>Telefone:<input type="number" name="telefone" id="cRua" placeholder="Telefone" />
+                </p>
+                <p> Número:<input type=" number " name="tNum" id="cNum" min="0" max="9999"
+                        placeholder="Numero do telefone" /> </p>
+                <p><label f>Provincia:
+                        <select name="tEst" id="cEst">
+                            <option>Luanda</option>
+                            <optgroup label=" Regiao sul">
+                                <option selected>Namibe </option>
+                                <option>Huila</option>
+                                <option>Benguela</option>
+                            </optgroup>
+                        </select></p>
+                <p>Cidade:<input type="text" name="tCid" id="cCid" size="13" maxlength="80" placeholder="Bairro"
+                        list="cidades" />
+                    <datalist id="cidades">
+                        <option value="Forte Santa Rita"></option>
+                        <option value="5 de Abril"></option>
+                        <option value="Mabumi"></option>
+                        <option value="Sai di Mingas"></option>
+                </p>
+            </fieldset>
 
-        <fieldset id="mensagem">
-            <legend>Mensagem do Usuário</legend>
-            <p>Grau de Urgência:
-                Min<input type="range" name="tUrg" id="tUrg" min="0" max="10" step="2" />Max</p>
-            <p>Mensagem:
-                <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixa aqui a sua mensagem">
+            <fieldset id="mensagem">
+                <legend>Mensagem do Usuário</legend>
+                <p>Grau de Urgência:
+                    Min<input type="range" name="tUrg" id="tUrg" min="0" max="10" step="2" />Max</p>
+                <p>Mensagem:
+                    <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixa aqui a sua mensagem">
 </textarea>
 
-            </p>
-        </fieldset>
-        <input type="submit" name="enviar">
+                </p>
+            </fieldset>
+            <input type="submit" name="enviar">
 
 
 

@@ -87,7 +87,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                     </ul>
                 </li>
                 <li><a href="Estrutura.php">Estrutura</a></li>
-                <li><a href="contact.php">Cadastro</a></li>
+                <li><a href="cadastro.php">Cadastro</a></li>
             </ul>
             <br style="clear: left" />
         </div> <!-- end of templatemo_menu -->

@@ -59,7 +59,7 @@
                     </ul>
                 </li>
                 <li><a href="Estrutura.php" class="selected">Estrutura</a></li>
-                <li><a href="contact.php">Cadastro</a></li>
+                <li><a href="cadastro.php">Cadastro</a></li>
             </ul>
             <br style="clear: left" />
         </div> <!-- end of templatemo_menu -->
