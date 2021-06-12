@@ -19,8 +19,8 @@ class UsuarioDao extends Conexao{
                 . " values(:nome, :sexo, :telefone, :estado, :email, :palavra_passe)";
         try {
             $this->comando = $con->prepare($this->consulta);
-            $this->comando->bindValue(":nome", $usuario->getNome(), PDO::PARAM_INT);
-            $this->comando->bindValue(":sexo", $usuario->getSexo(), PDO::PARAM_INT);
+            $this->comando->bindValue(":nome", $usuario->getNome(), PDO::PARAM_STR);
+            $this->comando->bindValue(":sexo", $usuario->getSexo(), PDO::PARAM_STR);
             $this->comando->bindValue(":telefone", $usuario->getTelefone(), PDO::PARAM_INT);
             $this->comando->bindValue(":estado", $usuario->getEstado(), PDO::PARAM_STR);
             $this->comando->bindValue(":email", $usuario->getEmail(), PDO::PARAM_STR);

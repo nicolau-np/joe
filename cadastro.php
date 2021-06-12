@@ -122,11 +122,11 @@ http://www.templatemo.com/preview/templatemo_358_carousel
         <form method="POST" id="fcadastro" action="cadastro.php">
             <fieldset id="usuario">
                 <legend>Identificação do Usuário</legend>
-                <p><label for="cNome">Nome:<input type="text" name="nome" id="cNome" size="20"
-                            placeholder="Nome completo" required /></p></label>
+                <p><label for="cNome">Nome:<input type="text" name="nome" placeholder="Nome completo" required /></p>
+                </label>
                 <p>E-mail:<input type="email" name="email" id="cMail" placeholder="E-mail" required /> </p>
                 <p> <label For="cSenha">Palavra-Passe:<input type="password" name="palavra_passe" id="cSenha"
-                            maxlength="8" placeholder="Palavra-Passe" required /> </p></label>
+                            placeholder="Palavra-Passe" required /> </p></label>
                 <fieldset id="sexo">
                     <legend>Sexo:</legend>
                     <select name="sexo" required>
