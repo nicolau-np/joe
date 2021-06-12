@@ -101,6 +101,10 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <?php  if(!isset($_SESSION['nome'])){
                 ?>
                 <li><a href="cadastro.php">Cadastro</a></li>
+                <?php 
+                }else{
+                ?>
+                <li><a href="acessoRestrito.php">Meu Perfil</a></li>
                 <?php } ?>
 
             </ul>

@@ -65,7 +65,12 @@ session_start();
                 <li><a href="Estrutura.php" class="selected">Estrutura</a></li>
                 <?php  if(!isset($_SESSION['nome'])){
                 ?>
+
                 <li><a href="cadastro.php">Cadastro</a></li>
+                <?php 
+                }else{
+                ?>
+                <li><a href="acessoRestrito.php">Meu Perfil</a></li>
                 <?php } ?>
             </ul>
             <br style="clear: left" />
