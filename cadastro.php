@@ -85,41 +85,41 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 
     <div id="templatemo_main">
 
-        <?php 
-            if(isset($_POST['enviar'])){
-                
-                $nome = $_POST['nome'];
-                $sexo= $_POST['sexo'];
-                $telefone= $_POST['telefone'];
-                $palavra_passe= $_POST['palavra_passe'];
-                $email= $_POST['email'];
-                $estado= "on";
+        <?php
+        if (isset($_POST['enviar'])) {
 
-                $usuario->setNome($nome);
-                $usuario->setSexo($sexo);
-                $usuario->setTelefone($telefone);
-                $usuario->setPalavra_passe($palavra_passe);
-                $usuario->setEmail($email);
-                $usuario->setEstado($estado);
+            $nome = $_POST['nome'];
+            $sexo = $_POST['sexo'];
+            $telefone = $_POST['telefone'];
+            $palavra_passe = $_POST['palavra_passe'];
+            $email = $_POST['email'];
+            $estado = "on";
 
-                $usr = $usuarioDAO->store($usuario);
-                if($usr==1){
-                    echo "<h3>Feito com sucesso</h3>";
-                }
+            $usuario->setNome($nome);
+            $usuario->setSexo($sexo);
+            $usuario->setTelefone($telefone);
+            $usuario->setPalavra_passe($palavra_passe);
+            $usuario->setEmail($email);
+            $usuario->setEstado($estado);
+
+            $usr = $usuarioDAO->store($usuario);
+            if ($usr >= 1) {
+                echo "<h3>Feito com sucesso</h3>";
             }
+        }
         ?>
 
         <form method="POST" id="fcadastro" action="cadastro.php">
             <fieldset id="usuario">
                 <legend>Identificação do Usuário</legend>
-                <p><label for="cNome">Nome:<input type="text" name="nome" id="cNome" size="20" maxlength="30"
-                            placeholder="Nome completo" /></p></label>
+                <p><label for="cNome">Nome:<input type="text" name="nome" id="cNome" size="20"
+                            placeholder="Nome completo" required /></p></label>
+                <p>E-mail:<input type="email" name="email" id="cMail" required /> </p>
                 <p> <label For="cSenha">Palavra-Passe:<input type="password" name="palavra_passe" id="cSenha"
-                            maxlength="8" placeholder="Palavra-Passe" /> </p></label>
-                <p>E-mail:<input type="email" name="email" id="cMail" /> </p>
+                            maxlength="8" placeholder="Palavra-Passe" required /> </p></label>
                 <fieldset id="sexo">
                     <legend>Sexo:</legend>
-                    <select name="sexo">
+                    <select name="sexo" required>
                         <option>Masculino</option>
                         <option>Femenino</option>
                     </select>
@@ -128,7 +128,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 
                 <fieldset id="endereco">
                     <legend>Endereço</legend>
-                    <p>Telefone:<input type="number" name="telefone" id="cRua" placeholder="Telefone" />
+                    <p>Telefone:<input type="number" name="telefone" id="cRua" placeholder="Telefone" required />
                     </p>
 
                 </fieldset>
