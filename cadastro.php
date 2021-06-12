@@ -1,4 +1,7 @@
 ﻿<?php
+ob_start();
+session_start();
+
 include_once('./controlo/Conexao.php');
 include_once('./modelo/Usuario.php');
 include_once('./dao/UsuarioDAO.php');
