@@ -106,7 +106,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <div class="image-hover">
                     <a href="#">
                         <figure>
-                            <img src="images/portfolio/image1.jpg" alt="image1">
+                            <img src="images/portfolio/image1.JPG" alt="image1">
                             <figcaption>
                                 <h3>Inauguração da esola</h3>
                                 <span> Estas fotos estão relacionado com a inagoracão da escola onde faz presente as
@@ -123,7 +123,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <div class="image-hover">
                     <a href="#">
                         <figure>
-                            <img src="images/portfolio/image2.jpg" alt="image2">
+                            <img src="images/portfolio/image2.JPG" alt="image2">
                             <figcaption>
                                 <h3>Inauguração da esola</h3>
                                 <span> Estas fotos estão relacionado com a inagoracão da escola onde faz presente as
@@ -140,7 +140,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <div class="image-hover">
                     <a href="#">
                         <figure>
-                            <img src="images/portfolio/image3.jpg" alt="image3">
+                            <img src="images/portfolio/image3.JPG" alt="image3">
                             <figcaption>
                                 <h3>Inauguração da esola</h3>
                                 <span> Estas fotos estão relacionado com a inagoracão da escola onde faz presente as
@@ -157,7 +157,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <div class="image-hover">
                     <a href="#">
                         <figure>
-                            <img src="images/portfolio/image4.jpg" alt="image4">
+                            <img src="images/portfolio/image4.JPG" alt="image4">
                             <figcaption>
                                 <h3>Inauguração da esola</h3>
                                 <span> Estas fotos estão relacionado com a inagoracão da escola onde faz presente as
@@ -174,7 +174,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <div class="image-hover">
                     <a href="#">
                         <figure>
-                            <img src="images/portfolio/image5.jpg" alt="image5">
+                            <img src="images/portfolio/image5.JPG" alt="image5">
                             <figcaption>
                                 <h3>Inauguração da esola</h3>
                                 <span> Estas fotos estão relacionado com a inagoracão da escola onde faz presente as
@@ -191,7 +191,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <div class="image-hover">
                     <a href="#">
                         <figure>
-                            <img src="images/portfolio/image6.jpg" alt="image6">
+                            <img src="images/portfolio/image6.JPG" alt="image6">
                             <figcaption>
                                 <h3>Inauguração da esola</h3>
                                 <span> Estas fotos estão relacionado com a inagoracão da escola onde faz presente as
@@ -208,7 +208,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <div class="image-hover">
                     <a href="#">
                         <figure>
-                            <img src="images/portfolio/image7.jpg" alt="image7">
+                            <img src="images/portfolio/image7.JPG" alt="image7">
                             <figcaption>
                                 <h3>Inauguração da esola</h3>
                                 <span> Estas fotos estão relacionado com a inagoracão da escola onde faz presente as
@@ -225,7 +225,7 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 <div class="image-hover">
                     <a href="#">
                         <figure>
-                            <img src="images/portfolio/image8.jpg" alt="image8">
+                            <img src="images/portfolio/image8.JPG" alt="image8">
                             <figcaption>
                                 <h3>Inauguração da esola</h3>
                                 <span> Estas fotos estão relacionado com a inagoracão da escola onde faz presente as
