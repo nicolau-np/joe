@@ -97,8 +97,8 @@ http://www.templatemo.com/preview/templatemo_358_carousel
 
     <div id="templatemo_main">
         <?php 
-           echo "Nome: ". $_SESSION['nome']."<br/>";
-           echo "Telefone: ". $_SESSION['telefone'];
+           echo "<h3>Nome: ". $_SESSION['nome']."</h3><br/>";
+           echo "<h3>Telefone: ". $_SESSION['telefone']."</h3>";
         ?>
     </div>
     <!-- END of templatemo_main -->
