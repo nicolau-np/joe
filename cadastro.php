@@ -102,7 +102,10 @@ http://www.templatemo.com/preview/templatemo_358_carousel
                 $usuario->setEmail($email);
                 $usuario->setEstado($estado);
 
-                
+                $usr = $usuarioDAO->store($usuario);
+                if($usr==1){
+                    echo "<h3>Feito com sucesso</h3>";
+                }
             }
         ?>
 
